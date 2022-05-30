@@ -1,0 +1,8 @@
+html, body, button {
+  display: grid;
+  place-items: center;
+}
+/*Cascating Stylesheet: pilha de prioridade*/
+h2 {
+  font-size: 0.8rem;
+}   
