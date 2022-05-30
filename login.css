@@ -1,0 +1,33 @@
+    html, body {
+      display: grid;
+      place-items: center;
+    }
+    /*Cascating Stylesheet: pilha de prioridade*/
+    h2 {
+      font-size: 0.8rem;
+    } 
+
+
+  #login {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 2px 20px 2px;
+    background-color: rgba(232, 186, 238, 0.6);
+}
+apoio {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;      /* tamanho da fonte */
+  color: rgb(80, 78, 78); /* cor do texto */
+  text-align: right;     /* alinhamento */
+}
+
+contato{
+  grid: right;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;      /* tamanho da fonte */
+  color: rgb(80, 78, 78); /* cor do texto */
+  text-align: left;     /* alinhamento */
+}
