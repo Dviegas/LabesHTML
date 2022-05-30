@@ -1,0 +1,21 @@
+/*style muda o estilo de onde está sendo escrito, no caso o cabeçalho da página*/
+    html,
+    body {
+      display: grid;
+      place-items: center;
+    }
+    h1 {
+      border: 2px solid red;
+      color: brown;
+      font-size: 60px;
+      background-color: aquamarine;
+      padding: 20px;
+    }
+    /*Cascating Stylesheet: pilha de prioridade*/
+    h2 {
+      color: brown;
+      font-size: 0.8rem;
+    }   
+    div{
+      background-color: greenyellow;
+    }
